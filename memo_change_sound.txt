@@ -1,0 +1,23 @@
+1 0 64 Soprano Sax
+1 0 48 Strings
+1 0 46 Harp
+1 0 26 Jazz Guitar
+1 0 8  Celesta
+1 0 0  Yamaha Grand Piano
+1 0 2  Electric Piano
+
+2 0 0 Piano 1
+2 0 0 Piano 2
+2 0 0 Piano 3
+2 0 16 Organ 1
+2 0 17 Organ 2
+2 0 18 Organ 3
+
+select chan soundfonts bank prog
+
+use
+> select 0 1 0 64
+  ^^^^^^^^
+  it is fix string
+
+
